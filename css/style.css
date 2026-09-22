@@ -1,0 +1,1535 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family:"Inter", sans-serif ;
+}
+
+/* Header Start */
+header{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    background: #F5F7FA;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 100px;
+}
+
+header >ul {
+    display: flex;
+    list-style: none;
+}
+header > ul > li{
+    margin-right: 50px;
+}
+header > ul > li > a{
+    color: #18191F;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+}
+header > ul > li > a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2.5px;
+    background: #18191F;
+    bottom:-2px;
+    left: 0;
+    transition: all 0.3s;
+}
+header > ul > li >a:hover::after{
+    width: 100%;
+    transition: 0.4s;
+}
+.btn{
+    color: #fff;
+    cursor: pointer;
+    background: #4CAF4F;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+.mobile-bar-icon{
+    display: none;
+}
+
+/* Header End */
+
+/* Hero Start */
+.main-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.hero{
+    width: 100%;
+    background: #F5F7FA;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px ;
+    padding: 96px 144px;
+}
+.hero > .left{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: start;
+}
+.hero > .left > h1{
+    max-width: 657px;
+    line-height: 76px;
+}
+.hero > .left > p{
+    font-weight: 400;
+    line-height: 24px;
+    color: #717171;
+    margin: 16px 0 32px;
+}
+.hero > .left > button{
+    line-height: 24px;
+    color: #fff;
+    background: #4CAF4F;
+    padding: 14px 32px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight:500;
+}
+
+.hero > .right > img{
+    width: 100%;
+}
+
+/* Hero End */
+
+/* Partner Start */
+.partner-title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.partner-title > h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #4D4D4D;
+}
+.partner-title > p{
+    color: #717171;
+}
+
+.partner{
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 136px;
+    margin-bottom: 60px;
+}
+
+/* Partner End */
+/* community management Start */
+.community-management-title{
+    width: 100%;
+    text-align: center;
+}
+.community-management-title > h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    max-width: 542px;
+    margin: 0 auto;
+    color: #4D4D4D;
+    margin-bottom: 8px;
+}
+.community-management-title > p{
+    line-height: 24px;
+    color: #4D4D4D;
+    text-align: center;
+}
+
+.community-management{
+  display: flex;
+  text-align: center;
+  margin-top: 20px; 
+}
+.community-management > .card{
+    display: flex;
+    width: 299px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.community-management >.card >  h3{
+    font-size: 28px;
+    font-weight: bold;
+    color: #4D4D4D;
+    line-height: 36px;
+    margin: 14px 8px;
+}
+.community-management > .card > p{
+    color: #717171;
+}
+/* community management End */
+
+/*  Blog Title Start 1  */
+.blog-title-1{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 48px;
+    
+}
+.blog-title-1 > .left > img{
+    width: 100%;
+}
+.blog-title-1 > .right{
+    width: 661px;
+
+}
+.blog-title-1 > .right > h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+    line-height: 44px;
+    margin-bottom: 16px;
+}
+.blog-title-1 > .right > p{
+    width: 601px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+    margin-bottom: 32px;
+}
+.blog-title-1 > .right > button{
+    background: #4CAF4F;
+    color: #fff;
+    padding: 14px 32px;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+
+/*  Blog Title End 1  */
+
+/* blog-card-title Start */
+.blog-card-title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 72px;
+    background: #F5F7FA;
+    padding: 84px 144px;
+    margin-bottom: 48px;
+}
+.blog-card-title > .left > h3{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #4D4D4D;
+    margin-bottom: 8px;
+}
+.blog-card-title > .left > h3 > span{
+    color: #4CAF4F;
+}
+.blog-card-title > .left > p{
+    color: #18191F;
+    line-height: 24px;
+    font-weight: normal;
+}
+.blog-card-title > .right{
+    max-width: 540px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.blog-card-title > .right > img{
+    width: 100%;
+}
+.blog-card-title > .right > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+    text-align: left
+}
+.blog-card-title > .right > div > div > h4{
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #4D4D4D;
+}
+.blog-card-title > .right > div > div > p{
+    color: #717171;
+    font-size: 14px;
+    line-height: 24px;
+}
+/* blog-card-title End */
+
+
+/* Customer Start */
+.customer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 78px;
+    padding: 32px 144px;
+    margin-top: 48px;
+    background: #F5F7FA;
+    margin-bottom: 48px;
+}
+.customer > .left > img{
+    width: 100%;
+}
+.customer > .right {
+    width: 748px;
+    height: 324;
+}
+
+.customer > .right > .para{
+    line-height: 24px;
+    font-size: 16px;
+    color: #717171;
+    margin-bottom: 16px;
+}
+.customer > .right > h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4CAF4F;
+}
+.customer > .right > p{
+    margin: 8px 0 32px;
+    color: #89939E;
+    font-size: 16px;
+}
+
+.customer > .right > div {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 41px;
+} 
+.customer > .right > div > button {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4CAF4F;
+}
+.customer > .right > div > button > i{
+    font-size: 14px;
+}
+/* Customer End */
+
+/* Community Update Start */
+
+.cummunity-update-title > h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+    line-height: 44px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.cummunity-update-title > p{
+    width: 628px;
+    margin: 0 auto;
+    text-align: center;
+    color: #717171;
+    margin-bottom: 16px;
+}
+.community-update{
+    max-width: 1440px;
+    padding: 144px auto 94px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 94px;
+    gap: 24px;
+    position: relative;
+}
+.community-update-card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.community-update > .community-update-card > div{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 16px;
+    bottom: -55px;
+    text-align: center;
+    box-shadow:0px 8px 16px rgba(171, 190, 209, 0.4);
+}
+
+.community-update > .community-update-card > div > h5{
+    color: #717171;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.community-update > .community-update-card > div > button{
+    color: #4CAF4F;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    margin: auto;
+}
+
+
+
+/* Community Update End */
+
+/* demo Start */
+.demo{
+    max-width: 1440px;
+    text-align: center;
+    background: #F5F7FA;
+    padding: 32px;
+}
+.demo > h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: #263238;
+    margin-bottom: 32px;
+}
+.demo > button{
+    background: #4CAF4F;
+    border-radius: 4px;
+    font-weight: 400;
+    padding: 14px 32px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 8px;
+    cursor: pointer;
+}
+/* demo End */
+
+/* Footer Start */
+footer{
+    max-width: 1440px;
+    margin: auto;
+    background: #263238;
+    display: flex;
+    color: #fff;
+    padding: 64px 165px;
+    justify-content: space-between;
+    gap: 125px;
+}
+footer > .left > img{
+   width: 100%;
+   margin-bottom: 40px;
+}
+footer > .left > p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #F5F7FA;
+    margin-bottom: 8px;
+}
+footer > .left > ul{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    list-style: none;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+footer > .left > ul > li{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(255,255,255, 0.1);
+}
+
+footer > .left > ul > li > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+}
+
+
+
+footer > .right{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    align-items: start;
+}
+
+footer > .right > div > h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+footer > .right > div > ul > li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+footer > .right > .send > h2{
+    font-size: 20px;
+    font-size: 600;
+    margin-bottom: 20px;
+}
+
+footer > .right > div > form{
+    background: rgba(255,255,255, 0.1);
+    padding: 9px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+footer > .right > div > form > input{
+    border: none;
+    outline: none;
+}
+footer > .right > div > form > button {
+    cursor: pointer;
+}
+
+
+/* Footer End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   TABLET & SMALL LAPTOP
+   1024px and below
+========================================================= */
+
+@media (max-width: 1024px) {
+
+    /* ================= HEADER ================= */
+
+    header {
+        padding: 22px 50px;
+    }
+
+    header > a > img {
+        max-width: 150px;
+        height: auto;
+    }
+
+    header > ul {
+        display: none;
+        width: 100%;
+        margin-top: 15px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    header > ul.active {
+        display: flex;
+    }
+
+    header > ul > li {
+        margin-right: 0;
+    }
+
+    header > .mobile-bar-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+
+    /* ================= HERO ================= */
+
+    .hero {
+        padding: 65px 50px;
+        gap: 35px;
+    }
+
+    .hero > .left {
+        width: 55%;
+    }
+
+    .hero > .left > h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .hero > .left > p {
+        max-width: 550px;
+    }
+
+    .hero > .right {
+        width: 45%;
+    }
+
+    .hero > .right img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    /* ================= PARTNER ================= */
+
+    .partner {
+        padding: 0 40px;
+        gap: 45px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    /* ================= COMMUNITY ================= */
+
+    .community-management {
+        padding: 0 35px;
+        gap: 25px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .community-management > .card {
+        width: calc(33.333% - 20px);
+        max-width: 300px;
+    }
+
+
+    /* ================= BLOG TITLE 1 ================= */
+
+    .blog-title-1 {
+        padding: 0 50px;
+        gap: 35px;
+    }
+
+    .blog-title-1 > .left {
+        width: 45%;
+    }
+
+    .blog-title-1 > .left img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .blog-title-1 > .right {
+        width: 55%;
+    }
+
+    .blog-title-1 > .right > h2 {
+        font-size: 31px;
+        line-height: 40px;
+    }
+
+    .blog-title-1 > .right > p {
+        width: 100%;
+    }
+
+
+    /* ================= BLOG CARD ================= */
+
+    .blog-card-title {
+        padding: 65px 50px;
+        gap: 40px;
+    }
+
+    .blog-card-title > .left {
+        width: 45%;
+    }
+
+    .blog-card-title > .right {
+        width: 55%;
+        height: auto;
+    }
+
+
+    /* ================= CUSTOMER ================= */
+
+    .customer {
+        padding: 45px 50px;
+        gap: 35px;
+    }
+
+    .customer > .left {
+        width: 40%;
+    }
+
+    .customer > .right {
+        width: 60%;
+        height: auto;
+    }
+
+    .customer > .right > div {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+      .cummunity-update-title {
+        padding: 0 40px;
+    }
+
+    .cummunity-update-title > p {
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .community-update { 
+        padding: 100px 20px 90px;
+        gap: 80px 20px; 
+    }
+     .community-update-card { 
+        width: 340px;
+     } 
+     
+     .community-update > .community-update-card > div{ 
+        width: calc(100% - 40px);
+        bottom: -55px;
+      }
+
+   
+
+    .demo {
+        padding: 55px 40px;
+    }
+
+    .demo > h1 {
+        font-size: 48px;
+    }
+
+    footer {
+        padding: 55px 50px;
+        gap: 50px;
+    }
+
+    footer > .left {
+        width: 30%;
+    }
+
+    footer > .right {
+        width: 70%;
+        gap: 35px;
+    }
+
+    footer > .right > .send {
+        min-width: 190px;
+    }
+
+    footer > .right > div > form > input {
+        width: 130px;
+        min-width: 0;
+    }
+}
+
+
+/* =========================================================
+   TABLET
+   768px and below
+========================================================= */
+
+@media (max-width: 768px) {
+
+    /* ================= HEADER ================= */
+
+    header {
+        padding: 20px 30px;
+        gap: 15px;
+    }
+
+    header > a > img {
+        max-width: 140px;
+    }
+
+    header > ul {
+        width: 100%;
+        order: 3;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 12px;
+    }
+
+
+    /* ================= HERO ================= */
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 30px;
+        gap: 45px;
+    }
+
+    .hero > .left {
+        width: 100%;
+        align-items: center;
+    }
+
+    .hero > .left > h1 {
+        width: 100%;
+        max-width: 650px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero > .left > p {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .hero > .right {
+        width: 75%;
+        max-width: 500px;
+    }
+
+    .hero > .right img {
+        width: 100%;
+    }
+
+
+    /* ================= PARTNER TITLE ================= */
+
+    .partner-title {
+        padding: 0 25px;
+        text-align: center;
+    }
+
+    .partner-title > h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+
+    /* ================= PARTNER ================= */
+
+    .partner {
+        padding: 0 30px;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .partner img {
+        max-width: 120px;
+        height: auto;
+    }
+
+
+    /* ================= COMMUNITY TITLE ================= */
+
+    .community-management-title {
+        padding: 0 25px;
+        text-align: center;
+    }
+
+    .community-management-title > h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .community-management-title > p {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /* ================= COMMUNITY ================= */
+
+    .community-management {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+        gap: 20px;
+    }
+
+    .community-management > .card {
+        width: 100%;
+        max-width: 380px;
+    }
+
+
+    /* ================= BLOG TITLE 1 ================= */
+
+    .blog-title-1 {
+        flex-direction: column;
+        padding: 0 30px;
+        gap: 35px;
+        text-align: center;
+    }
+
+    .blog-title-1 > .left {
+        width: 75%;
+        max-width: 450px;
+    }
+
+    .blog-title-1 > .right {
+        width: 100%;
+    }
+
+    .blog-title-1 > .right > h2 {
+        font-size: 31px;
+        line-height: 40px;
+    }
+
+    .blog-title-1 > .right > p {
+        width: 100%;
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /* ================= BLOG CARD ================= */
+
+    .blog-card-title {
+        flex-direction: column;
+        padding: 60px 30px;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .blog-card-title > .left {
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .blog-card-title > .right {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .blog-card-title > .left > h3 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+
+    /* ================= CUSTOMER ================= */
+
+    .customer {
+        flex-direction: column;
+        padding: 50px 30px;
+        gap: 35px;
+        text-align: center;
+    }
+
+    .customer > .left {
+        width: 75%;
+        max-width: 500px;
+    }
+
+    .customer > .right {
+        width: 100%;
+        max-width: 700px;
+        height: auto;
+    }
+
+    .customer > .right > div {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+
+      /* Community Update */
+    .cummunity-update-title {
+        padding: 0 30px;
+    }
+
+    .cummunity-update-title > h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .cummunity-update-title > p {
+        width: 100%;
+        max-width: 600px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .community-update { 
+        padding: 70px 20px 80px; 
+        flex-direction: column; 
+        align-items: center;
+        gap: 80px;
+    } 
+    .community-update-card { 
+        width: 100%;
+        max-width: 500px;
+    }
+    .community-update > .community-update-card > div {
+         width: calc(100% - 40px);
+         bottom: -55px;
+         left: 50%;
+         transform: translateX(-50%);
+    }
+
+
+    /* Demo */
+    .demo {
+        padding: 50px 30px;
+    }
+
+    .demo > h1 {
+        font-size: 42px;
+        line-height: 1.2;
+    }
+
+
+    /* Footer */
+    footer {
+        flex-direction: column;
+        padding: 50px 40px;
+        gap: 45px;
+    }
+
+    footer > .left {
+        width: 100%;
+    }
+
+    footer > .left > img {
+        width: auto;
+        max-width: 180px;
+        margin-bottom: 30px;
+    }
+
+    footer > .right {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 40px 30px;
+    }
+
+    footer > .right > .send {
+        grid-column: 1 / -1;
+        width: 100%;
+    }
+
+    footer > .right > div > form {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    footer > .right > div > form > input {
+        width: 100%;
+        flex: 1;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   576px and below
+========================================================= */
+
+@media (max-width: 576px) {
+
+    /* ================= HEADER ================= */
+
+    header {
+        padding: 18px 20px;
+    }
+
+    header > a > img {
+        max-width: 125px;
+    }
+
+    header > ul {
+        gap: 10px;
+    }
+
+    header > ul > li > a {
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 8px 14px;
+        font-size: 16px;
+    }
+
+
+    /* ================= HERO ================= */
+
+    .hero {
+        padding: 50px 20px;
+        gap: 35px;
+    }
+
+    .hero > .left > h1 {
+        font-size: 34px;
+        line-height: 43px;
+    }
+
+    .hero > .left > p {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 15px auto 25px;
+    }
+
+    .hero > .left > button {
+        padding: 11px 24px;
+    }
+
+    .hero > .right {
+        width: 90%;
+    }
+
+
+    /* ================= PARTNER TITLE ================= */
+
+    .partner-title {
+        padding: 0 20px;
+    }
+
+    .partner-title > h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .partner-title > p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    /* ================= PARTNER ================= */
+
+    .partner {
+        padding: 0 20px;
+        gap: 22px;
+    }
+
+    .partner img {
+        max-width: 100px;
+    }
+
+
+    /* ================= COMMUNITY TITLE ================= */
+
+    .community-management-title {
+        padding: 0 20px;
+    }
+
+    .community-management-title > h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .community-management-title > p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    /* ================= COMMUNITY ================= */
+
+    .community-management {
+        padding: 0 20px;
+        gap: 18px;
+    }
+
+    .community-management > .card {
+        width: 100%;
+        max-width: 350px;
+        padding: 20px;
+    }
+
+    .community-management > .card > h3 {
+        font-size: 23px;
+        line-height: 31px;
+    }
+
+
+    /* ================= BLOG TITLE 1 ================= */
+
+    .blog-title-1 {
+        padding: 0 20px;
+        gap: 30px;
+    }
+
+    .blog-title-1 > .left {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .blog-title-1 > .right > h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .blog-title-1 > .right > p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .blog-title-1 > .right > button {
+        padding: 11px 24px;
+    }
+
+
+    /* ================= BLOG CARD ================= */
+
+    .blog-card-title {
+        padding: 50px 20px;
+        gap: 30px;
+    }
+
+    .blog-card-title > .left > h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .blog-card-title > .left > p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .blog-card-title > .right {
+        gap: 18px;
+    }
+
+    .blog-card-title > .right > div > div > h4 {
+        font-size: 21px;
+        line-height: 29px;
+    }
+
+    .blog-card-title > .right > div > div > p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    /* ================= CUSTOMER ================= */
+
+    .customer {
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    .customer > .left {
+        width: 90%;
+    }
+
+    .customer > .right {
+        width: 100%;
+    }
+
+    .customer > .right > .para {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .customer > .right > h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .customer > .right > p {
+        font-size: 16px;
+    }
+
+    .customer > .right > div {
+        gap: 15px;
+    }
+
+    .customer > .right > div > button {
+        font-size: 16px;
+    }
+
+
+     /* Community Update */
+    .cummunity-update-title {
+        padding: 0 20px;
+    }
+
+    .cummunity-update-title > h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .cummunity-update-title > p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+   .community-update { 
+       padding: 70px 16px 60px;
+       margin-bottom: 60px;
+       display: flex; 
+       flex-direction: column;
+       align-items: center;
+       gap: 80px; 
+   } 
+   .community-update-card {
+       width: 100%;
+       max-width: 420px; 
+   }  
+   .community-update-card img {
+       width: 100%;  
+    } 
+   .community-update-card > div {
+      width: calc(100% - 30px);
+      bottom: -50px;
+      padding: 14px 12px; 
+    }
+    .community-update-card > div > h5 {
+      font-size: 15px; line-height: 1.4;
+      margin-bottom: 12px; 
+    } 
+    .community-update-card > div > button {
+      font-size: 14px;
+    }
+
+
+    /* Demo */
+    .demo {
+        padding: 45px 20px;
+    }
+
+    .demo > h1 {
+        font-size: 34px;
+        line-height: 43px;
+        margin-bottom: 25px;
+    }
+
+    .demo > button {
+        padding: 12px 24px;
+    }
+
+
+    /* Footer */
+    footer {
+        padding: 45px 20px;
+        gap: 35px;
+    }
+
+    footer > .left > img {
+        max-width: 160px;
+        margin-bottom: 25px;
+    }
+
+    footer > .left > ul {
+        gap: 12px;
+        margin-top: 25px;
+    }
+
+    footer > .right {
+        grid-template-columns: 1fr 1fr;
+        gap: 35px 20px;
+    }
+
+    footer > .right > div > h3,
+    footer > .right > .send > h2 {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+
+    footer > .right > div > ul > li {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    footer > .right > .send {
+        grid-column: 1 / -1;
+    }
+
+    footer > .right > div > form {
+        max-width: 100%;
+        padding: 8px 10px;
+    }
+}
+
+
+/* =========================================================
+   EXTRA SMALL MOBILE
+   400px and below
+========================================================= */
+
+@media (max-width: 400px) {
+
+    /* Header */
+
+    header {
+        padding: 15px;
+        gap: 10px;
+    }
+
+    header > a > img {
+        max-width: 110px;
+    }
+
+    header > ul > li > a {
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 7px 11px;
+        font-size: 16px;
+    }
+
+
+    /* Hero */
+
+    .hero {
+        padding: 40px 15px;
+    }
+
+    .hero > .left > h1 {
+        font-size: 29px;
+        line-height: 38px;
+    }
+
+    .hero > .left > p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .hero > .right {
+        width: 100%;
+    }
+
+
+    /* Partner */
+
+    .partner {
+        padding: 0 15px;
+        gap: 18px;
+    }
+
+    .partner img {
+        max-width: 85px;
+    }
+
+
+    /* Community */
+
+    .community-management {
+        padding: 0 15px;
+    }
+
+    .community-management > .card {
+        max-width: 330px;
+    }
+
+
+    /* Blog */
+
+    .blog-title-1 {
+        padding: 0 15px;
+    }
+
+    .blog-title-1 > .right > h2 {
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .blog-card-title {
+        padding: 40px 15px;
+    }
+
+    .blog-card-title > .left > h3 {
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+
+    /* Customer */
+
+    .customer {
+        padding: 35px 15px;
+    }
+
+    .customer > .left {
+        width: 100%;
+    }
+
+
+    .community-update {
+         padding: 50px 12px 55px;
+          margin-bottom: 50px;
+           gap: 75px; 
+        } 
+        .community-update-card { 
+            width: 100%; max-width: 360px;
+         } 
+        .community-update-card img {
+            width: 100%; height: auto;
+        }
+        .community-update-card > div {
+            width: calc(100% - 20px);
+            bottom: -45px;
+            padding: 12px 10px;
+            border-radius: 7px;
+        } 
+        .community-update-card > div > h5 {
+            font-size: 14px;
+            line-height: 1.4;
+            margin-bottom: 10px; 
+        } 
+        .community-update-card > div > button {
+            font-size: 13px; gap: 5px; 
+        }
+        .community-update-card > div > button i { 
+            font-size: 12px;
+        }
+
+    .demo {
+        padding: 40px 15px;
+    }
+
+    .demo > h1 {
+        font-size: 29px;
+        line-height: 37px;
+    }
+
+    footer {
+        padding: 40px 15px;
+    }
+
+    footer > .right {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    footer > .right > .send {
+        grid-column: auto;
+    }
+}
+
+
+
+
+
+
+
+
